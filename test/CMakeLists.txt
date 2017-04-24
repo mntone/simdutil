@@ -8,6 +8,7 @@ set(simdutil_HEADERS
 	../include/xmmintrin_ext.h
 	../include/emmintrin_ext.h
 	../include/smmintrin_emm.h
+	../include/pmmintrin_emm.h
 	../include/tmmintrin_emm.h
 	../include/nmmintrin_ext.h
 	)
@@ -21,6 +22,7 @@ set(simdutil-test_SOURCES
 	xmmintrin_ext_test.cpp
 	emmintrin_ext_test.cpp
 	smmintrin_emm_test.cpp
+	pmmintrin_emm_test.cpp
 	tmmintrin_emm_test.cpp
 	nmmintrin_ext_test.cpp
 	)
